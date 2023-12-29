@@ -1,0 +1,228 @@
+.AddBlog{
+    display: flex;
+    margin: 2rem;
+    font-family: 'FiraGO', sans-serif;
+
+}
+.AddBlog p {
+    margin-bottom: 10px;
+}
+.backButton{
+    margin: 1rem;
+}
+.backButton img{
+    height: min-content;
+    cursor: pointer;
+    
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.addBlogContent{ 
+    width: 600px;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.addBlogContent h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1A1A1F;
+    margin-bottom: 3rem;
+}
+.addPhoto{
+    width: 100%;
+    background-color: #F4F3FF;
+    border: 1px dashed  #85858D;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-top: 7px;       
+    gap: 1rem;                                                                               
+}
+.photoP{
+    display: flex ;
+    gap: 5px
+}
+.uploadedImg{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    align-items: center;
+    background-color: #F2F2FA;
+    margin-top: 10px;
+}
+.folderName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+}
+.uploadedImgRemove{
+    margin-right: 10px;
+}
+.inputHub{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    gap: 2rem;
+}
+.author{
+    margin-left: 0px;
+    width: 100%;
+}
+.author input {
+    width: 100%;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #E4E3EB;
+    padding-left: 10px;
+    transition: border-color 0.3s ease; 
+  }
+  
+  .author input:focus {
+    border-color: #5D37F3;
+    outline: none;
+  }
+.authorErr {
+    font-size: small;
+    margin-top: 10px;
+    color: gray;
+}
+.bulletPoint {
+    margin-right: 5px; 
+    font-size: 1.2em; 
+    vertical-align: middle; 
+  }
+.title{
+    margin-left: 0px;
+    width: 100%;
+    
+}
+.title input{
+    width: 100%;
+    margin: 0;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #E4E3EB;
+    padding-left: 10px;
+    transition: border-color 0.3s ease; 
+}
+.title input:focus {
+    border-color: #5D37F3;
+    outline: none;
+  }
+.Description p {
+    margin-top: 30px;
+  }
+  
+  .Description textarea {
+    margin-left: 0px;
+    width: 100%;
+    height: 124px; 
+    border-radius: 12px;
+    border: 1px solid #E4E3EB;
+    padding: 10px;
+    resize: none;  
+  }
+  .Description textarea:focus {
+    border-color: #5D37F3;
+    outline: none;
+  }
+.uploadDate{
+    margin-left: 0px;
+    width: 100%;
+}
+.uploadDate input{
+    width: 100%;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #E4E3EB;
+    padding-left: 10px;
+}
+.uploadDate input:focus {
+    border-color: #5D37F3;
+    outline: none;
+  }
+
+.categories{
+    margin-left: 0px;
+    width: 100%;
+}
+.categories input:focus {
+    border-color: #5D37F3;
+    outline: none;
+  }
+.emailContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    gap: 2rem;
+
+}
+.email{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.email input{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #E4E3EB;
+}
+.email input:focus {
+    border-color: #5D37F3;
+    outline: none;
+  }
+.submit{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 30px;
+}
+.emptyspace{
+    width: 100%;
+
+}
+.submit button{
+    width: 100%;
+    padding-right: 0px;
+    height: 44px;
+    background-color: #365DF0;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.error {
+    font-weight: 100;
+    font-size: small;
+}
+.errorBorder {
+    border: 1px solid red;
+}

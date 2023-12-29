@@ -1,0 +1,96 @@
+.Blog{
+    max-width: 408px;
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'FiraGO', sans-serif;
+    gap: 10px;
+}
+.image{
+    width: 100%;
+}
+.image img {
+    width: 100%;
+    height: 328px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.author{
+   width: 100%; 
+}
+.author p{
+    font-size: small;
+}
+
+.date{
+    width: 100%;
+}
+.date p{
+    margin-top: 7px;
+    font-size: small;
+    color: #85858D;
+}
+
+.title{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    text-overflow: ellipsis;
+}
+.title p{
+    width: 100%;
+    font-size: x-large;
+    height: 56px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;      
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+.desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    text-overflow: ellipsis;
+}
+.desc p {
+    color: #404049;
+}
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.link p{
+    cursor: pointer;
+    color: #5D37F3;
+    font-size: small;
+}
+.link img {
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+}
+.scrollContainer{
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%; 
+    display: flex; 
+    gap: 24px; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+}
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}

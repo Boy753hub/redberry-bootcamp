@@ -1,0 +1,74 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:700,900');
+.main{
+    width: 100%;
+    background-color: #F3F2FA;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.text{
+    width: 225px;
+    height: 72px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text p{
+    font-family: 'FiraGO', sans-serif;
+    color: #1A1A1F;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 72px;
+    size: 64px;
+}
+.backgroundImg{
+    width: 624px;
+    height: 200px;
+    margin-right: 20px;
+}
+.scrollContainer{
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 60%; 
+    display: flex; 
+    gap: 24px; 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+}
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;      
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+.blogsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 4rem;
+}

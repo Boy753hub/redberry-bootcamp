@@ -1,0 +1,10 @@
+.categorie{
+    border-radius: 25px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 15px;
+    font-family: 'FiraGO', sans-serif;
+    cursor: pointer;
+}

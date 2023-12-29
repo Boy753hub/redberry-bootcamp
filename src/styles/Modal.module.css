@@ -1,0 +1,146 @@
+.modalBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.modalContent{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1; 
+    background-color: #fff;
+    padding: 20px;
+    width: 480px;
+    height: fit-content;
+    border-radius: 10px;
+}
+.x{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.login h1{
+    font-family: 'FiraGO', sans-serif;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+}
+.login p{
+    margin-top: 15px;
+    font-family: 'FiraGO', sans-serif;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.login input{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(241, 241, 241);
+    outline: none;
+}
+.login button{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+    background-color: #5D37F3;
+    color: white;
+    font-family: 'FiraGO', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.login{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.error{
+    color: red;
+    font-family: 'FiraGO', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    height: 24px;
+}
+.info {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    gap: 10px;
+    margin-top: 7px;
+}
+
+.info img {
+    margin: 0 auto;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0; 
+}
+
+.info p {
+    margin: 0 auto;
+    margin: 0; 
+    padding: 0; 
+}
+.errorInput {
+    margin: 0 auto;
+    border: 2px solid #f33737;
+}
+
+.logedIn{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.greenCheck{
+    margin: 0 auto;
+}
+
+.logedIn p{
+    margin: 0 auto;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.logedIn button{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    background-color: #5D37F3;
+    color: white;
+    font-family: 'FiraGO', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer; 
+    margin-bottom: 20px;
+}
